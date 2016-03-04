@@ -1,0 +1,9 @@
+2016-03-04 0:01:42 -->Codigo->2002 Error -> Conexion Fallida : php_network_getaddresses: getaddrinfo failed: Host desconocido.  trace-> #0 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\tribunal\connect\MYSQL\Mysql.Class.php(23): Mysql->conectar()
+#1 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\tribunal\connect\Proveedor.Class.php(49): Mysql->__construct('EXHORTOS')
+#2 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\modelos\exhortos\dao\usuarios\UsuariosDAO.Class.php(28): Proveedor->connect()
+#3 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\modelos\exhortos\dao\usuarios\UsuariosDAO.Class.php(361): UsuariosDAO->_conexion(NULL)
+#4 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\login\LoginController.Class.php(130): UsuariosDAO->selectUsuarios(Object(UsuariosDTO))
+#5 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\fachadas\exhortos\login\LoginFacade.Class.php(15): LoginController->getFullLogin('roman', '238a1843d81dd7f...', 1)
+#6 C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\fachadas\exhortos\login\LoginFacade.Class.php(26): LoginFacade->getLoginFull('roman', '238a1843d81dd7f...')
+#7 {main}
+

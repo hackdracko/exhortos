@@ -1,0 +1,772 @@
+2016-02-02 9:53:29 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/acciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/acciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/actuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/actuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/consignaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/consignaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/cuantias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/cuantias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/distritos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/distritos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/estados/EstadosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/estados/EstadosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/generos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/generos/GenerosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/generos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/generos/GenerosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/grupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/grupos/GruposDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/grupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/grupos/GruposDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juicios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juicios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/materias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/materias/MateriasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/materias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/materias/MateriasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/municipios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/municipios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/oficialia
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/oficialia
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/partes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/partes/PartesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/partes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/partes/PartesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/perfiles
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/perfiles
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/sistemas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/sistemas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipos/TiposDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipos/TiposDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospartes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospartes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/usuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/usuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 9:53:29 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 10:33:54 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/acciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/acciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/actuaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/actuaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/adscripciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/adscripciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/consignaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/consignaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/cuantias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/cuantias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/distritos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/distritos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/estados/EstadosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/estados/EstadosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/formularios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/formularios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/generos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/generos/GenerosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/generos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/generos/GenerosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/grupos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/grupos/GruposDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/grupos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/grupos/GruposDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juicios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juicios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/materias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/materias/MateriasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/materias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/materias/MateriasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/municipios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/municipios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/oficialia
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/oficialia
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/partes
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/partes/PartesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/partes
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/partes/PartesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/perfiles
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/perfiles
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/sistemas
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/sistemas
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipos/TiposDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipos/TiposDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospartes
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospartes
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/usuarios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/usuarios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/modelos/exhortos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 10:33:54 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 10:39:50 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/acciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/acciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/actuaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/actuaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/adscripciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/adscripciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/consignaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/consignaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/cuantias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/cuantias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/distritos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/distritos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/estados/EstadosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/estados/EstadosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/estatusexhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/formularios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/formularios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/generos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/generos/GenerosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/generos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/generos/GenerosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/grupos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/grupos/GruposDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/grupos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/grupos/GruposDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juicios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juicios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/materias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/materias/MateriasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/materias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/materias/MateriasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/municipios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/municipios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/oficialia
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/oficialia
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/partes
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/partes/PartesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/partes
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/partes/PartesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/perfiles
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/perfiles
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosgrupos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/permisosusuarios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/sistemas
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/sistemas
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tipos/TiposDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tipos/TiposDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospartes
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospartes
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/tipospersonas
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/usuarios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/modelos/exhortos/dto/usuarios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/modelos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 10:39:50 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 11:09:11 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 11:09:11 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/acciones
+2016-02-02 11:09:11 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 11:09:11 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/acciones
+2016-02-02 11:09:11 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 11:09:11 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/actuaciones
+2016-02-02 11:09:11 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 11:09:11 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/actuaciones
+2016-02-02 11:09:11 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/adscripciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/adscripciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/consignaciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/consignaciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/cuantias
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/cuantias
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/distritos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/distritos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estados
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estados/EstadosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estados
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estados/EstadosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estatusexhortos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estatusexhortos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/formularios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/formularios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/generos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/generos/GenerosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/generos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/generos/GenerosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/grupos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/grupos/GruposDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/grupos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/grupos/GruposDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juicios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juicios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgados
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgados
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/materias
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/materias/MateriasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/materias
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/materias/MateriasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/municipios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/municipios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/oficialia
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/oficialia
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/partes
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/partes/PartesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/partes
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/partes/PartesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/perfiles
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/perfiles
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosgrupos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosgrupos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosusuarios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosusuarios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/sistemas
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/sistemas
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipos/TiposDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipos/TiposDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospartes
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospartes
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospersonas
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospersonas
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/usuarios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/usuarios
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 11:09:12 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 11:09:43 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 11:09:43 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/acciones
+2016-02-02 11:09:43 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 11:09:43 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/acciones
+2016-02-02 11:09:43 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/actuaciones
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/actuaciones
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/adscripciones
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/adscripciones
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/consignaciones
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/consignaciones
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/cuantias
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/cuantias
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/distritos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/distritos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estados
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estados/EstadosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estados
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estados/EstadosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estatusexhortos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estatusexhortos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/formularios
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/formularios
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/generos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/generos/GenerosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/generos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/generos/GenerosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/grupos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/grupos/GruposDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/grupos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/grupos/GruposDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juicios
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juicios
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgados
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgados
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/materias
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/materias/MateriasDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/materias
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/materias/MateriasDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/municipios
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/municipios
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/oficialia
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/oficialia
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/partes
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/partes/PartesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/partes
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/partes/PartesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/perfiles
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/perfiles
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosgrupos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosgrupos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosusuarios
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosusuarios
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/sistemas
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/sistemas
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipos/TiposDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipos/TiposDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospartes
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 11:09:44 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospartes
+2016-02-02 11:09:44 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospersonas
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospersonas
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/usuarios
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/usuarios
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 11:09:45 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 11:16:22 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL MODELO**********
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/acciones
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/acciones
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/acciones/AccionesDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/actuaciones
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/actuaciones
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/actuaciones/ActuacionesDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/adscripciones
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/adscripciones
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/adscripciones/AdscripcionesDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/bitacoramovimientos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/bitacoramovimientos/BitacoramovimientosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/consignaciones
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/consignaciones
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/consignaciones/ConsignacionesDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/cuantias
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/cuantias
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/cuantias/CuantiasDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/distritos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/distritos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/distritos/DistritosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estados
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estados/EstadosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estados
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estados/EstadosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estatusexhortos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/estatusexhortos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/estatusexhortos/EstatusexhortosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortos/ExhortosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/exhortosgenerados
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/exhortosgenerados/ExhortosgeneradosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/formularios
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/formularios
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/formularios/FormulariosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/generos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/generos/GenerosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/generos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/generos/GenerosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/grupos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/grupos/GruposDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/grupos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/grupos/GruposDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juicios
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juicios
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juicios/JuiciosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juiciosexhortos
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juiciosexhortos/JuiciosexhortosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgados
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgados
+2016-02-02 11:16:22 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgados/JuzgadosDTO.Class.php
+2016-02-02 11:16:22 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/juzgadosmaterias
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/juzgadosmaterias/JuzgadosmateriasDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/materias
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/materias/MateriasDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/materias
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/materias/MateriasDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/municipios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/municipios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/municipios/MunicipiosDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/oficialia
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/oficialia
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/oficialia/OficialiaDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/partes
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/partes/PartesDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/partes
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/partes/PartesDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/perfiles
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/perfiles
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/perfiles/PerfilesDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosgrupos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosgrupos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosgrupos/PermisosgruposDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosusuarios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/permisosusuarios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/permisosusuarios/PermisosusuariosDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/sistemas
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/sistemas
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/sistemas/SistemasDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipos/TiposDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipos/TiposDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposactuaciones
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposactuaciones/TiposactuacionesDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tiposdocumentos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tiposdocumentos/TiposdocumentosDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospartes
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospartes
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospartes/TipospartesDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospersonas
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/tipospersonas
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/tipospersonas/TipospersonasDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/usuarios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/exhortos/dto/usuarios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/modelos/dto/usuarios/UsuariosDTO.Class.php
+2016-02-02 11:16:23 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL MODELO**********

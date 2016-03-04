@@ -1,0 +1,386 @@
+2016-02-02 9:53:29 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL FACADE**********
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/acciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/acciones/AccionesFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/actuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/actuaciones/ActuacionesFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/bitacoramovimientos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/bitacoramovimientos/BitacoramovimientosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/consignaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/consignaciones/ConsignacionesFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/cuantias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/cuantias/CuantiasFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/distritos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/distritos/DistritosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/estados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/estados/EstadosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/estatusexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/estatusexhortos/EstatusexhortosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/exhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/exhortos/ExhortosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/exhortosgenerados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/exhortosgenerados/ExhortosgeneradosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/generos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/generos/GenerosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/grupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/grupos/GruposFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juicios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/juicios/JuiciosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juiciosexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/juiciosexhortos/JuiciosexhortosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juzgados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/juzgados/JuzgadosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juzgadosmaterias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/juzgadosmaterias/JuzgadosmateriasFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/materias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/materias/MateriasFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/municipios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/municipios/MunicipiosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/oficialia
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/oficialia/OficialiaFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/partes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/partes/PartesFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/perfiles
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/perfiles/PerfilesFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/permisosgrupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/permisosgrupos/PermisosgruposFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/permisosusuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/permisosusuarios/PermisosusuariosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/sistemas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/sistemas/SistemasFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/tipos/TiposFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tiposactuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/tiposactuaciones/TiposactuacionesFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tiposdocumentos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/tiposdocumentos/TiposdocumentosFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipospartes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/tipospartes/TipospartesFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipospersonas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/tipospersonas/TipospersonasFacade.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/usuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/usuarios/UsuariosFacade.Class.php
+2016-02-02 10:33:54 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL FACADE**********
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/acciones
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/acciones/AccionesFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/actuaciones
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/actuaciones/ActuacionesFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/adscripciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/adscripciones/AdscripcionesFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/bitacoramovimientos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/bitacoramovimientos/BitacoramovimientosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/consignaciones
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/consignaciones/ConsignacionesFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/cuantias
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/cuantias/CuantiasFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/distritos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/distritos/DistritosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/estados
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/estados/EstadosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/estatusexhortos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/estatusexhortos/EstatusexhortosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/exhortos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/exhortos/ExhortosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/exhortosgenerados
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/exhortosgenerados/ExhortosgeneradosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/formularios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/fachadas/exhortos/formularios/FormulariosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/generos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/generos/GenerosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/grupos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/grupos/GruposFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juicios
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/juicios/JuiciosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juiciosexhortos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/juiciosexhortos/JuiciosexhortosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juzgados
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/juzgados/JuzgadosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juzgadosmaterias
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/juzgadosmaterias/JuzgadosmateriasFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/materias
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/materias/MateriasFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/municipios
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/municipios/MunicipiosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/oficialia
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/oficialia/OficialiaFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/partes
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/partes/PartesFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/perfiles
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/perfiles/PerfilesFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/permisosgrupos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/permisosgrupos/PermisosgruposFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/permisosusuarios
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/permisosusuarios/PermisosusuariosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/sistemas
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/sistemas/SistemasFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tipos/TiposFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tiposactuaciones
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tiposactuaciones/TiposactuacionesFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tiposdocumentos
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tiposdocumentos/TiposdocumentosFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipospartes
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tipospartes/TipospartesFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipospersonas
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tipospersonas/TipospersonasFacade.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/usuarios
+2016-02-02 10:33:54 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/usuarios/UsuariosFacade.Class.php
+2016-02-02 10:39:50 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL FACADE**********
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/acciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/acciones/AccionesFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/actuaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/actuaciones/ActuacionesFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/adscripciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/adscripciones/AdscripcionesFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/bitacoramovimientos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/bitacoramovimientos/BitacoramovimientosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/consignaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/consignaciones/ConsignacionesFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/cuantias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/cuantias/CuantiasFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/distritos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/distritos/DistritosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/estados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/estados/EstadosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/estatusexhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/estatusexhortos/EstatusexhortosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/exhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/exhortos/ExhortosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/exhortosgenerados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/exhortosgenerados/ExhortosgeneradosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/formularios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/formularios/FormulariosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/generos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/generos/GenerosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/grupos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/grupos/GruposFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juicios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/juicios/JuiciosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juiciosexhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/juiciosexhortos/JuiciosexhortosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juzgados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/juzgados/JuzgadosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/juzgadosmaterias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/juzgadosmaterias/JuzgadosmateriasFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/materias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/materias/MateriasFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/municipios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/municipios/MunicipiosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/oficialia
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/oficialia/OficialiaFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/partes
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/partes/PartesFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/perfiles
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/perfiles/PerfilesFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/permisosgrupos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/permisosgrupos/PermisosgruposFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/permisosusuarios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/permisosusuarios/PermisosusuariosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/sistemas
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/sistemas/SistemasFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tipos/TiposFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tiposactuaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tiposactuaciones/TiposactuacionesFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tiposdocumentos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tiposdocumentos/TiposdocumentosFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipospartes
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tipospartes/TipospartesFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/tipospersonas
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/tipospersonas/TipospersonasFacade.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/fachadas/exhortos/usuarios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/fachadas/usuarios/UsuariosFacade.Class.php
+2016-02-02 11:09:13 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL FACADE**********
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/acciones
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/acciones/AccionesFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/actuaciones
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/actuaciones/ActuacionesFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/adscripciones
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/adscripciones/AdscripcionesFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/bitacoramovimientos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/bitacoramovimientos/BitacoramovimientosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/consignaciones
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/consignaciones/ConsignacionesFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/cuantias
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/cuantias/CuantiasFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/distritos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/distritos/DistritosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/estados
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/estados/EstadosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/estatusexhortos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/estatusexhortos/EstatusexhortosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/exhortos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/ExhortosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/exhortosgenerados
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortosgenerados/ExhortosgeneradosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/formularios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/formularios/FormulariosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/generos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/generos/GenerosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/grupos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/grupos/GruposFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juicios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juicios/JuiciosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juiciosexhortos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juiciosexhortos/JuiciosexhortosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juzgados
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juzgados/JuzgadosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juzgadosmaterias
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juzgadosmaterias/JuzgadosmateriasFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/materias
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/materias/MateriasFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/municipios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/municipios/MunicipiosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/oficialia
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/oficialia/OficialiaFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/partes
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/partes/PartesFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/perfiles
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/perfiles/PerfilesFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/permisosgrupos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/permisosgrupos/PermisosgruposFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/permisosusuarios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/permisosusuarios/PermisosusuariosFacade.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/sistemas
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/sistemas/SistemasFacade.Class.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipos/TiposFacade.Class.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tiposactuaciones
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tiposactuaciones/TiposactuacionesFacade.Class.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tiposdocumentos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tiposdocumentos/TiposdocumentosFacade.Class.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipospartes
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipospartes/TipospartesFacade.Class.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipospersonas
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipospersonas/TipospersonasFacade.Class.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/usuarios
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/usuarios/UsuariosFacade.Class.php
+2016-02-02 11:09:45 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL FACADE**********
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/acciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/acciones/AccionesFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/actuaciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/actuaciones/ActuacionesFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/adscripciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/adscripciones/AdscripcionesFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/bitacoramovimientos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/bitacoramovimientos/BitacoramovimientosFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/consignaciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/consignaciones/ConsignacionesFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/cuantias
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/cuantias/CuantiasFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/distritos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/distritos/DistritosFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/estados
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/estados/EstadosFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/estatusexhortos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/estatusexhortos/EstatusexhortosFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/exhortos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/ExhortosFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/exhortosgenerados
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortosgenerados/ExhortosgeneradosFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/formularios
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/formularios/FormulariosFacade.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/generos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/generos/GenerosFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/grupos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/grupos/GruposFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juicios
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juicios/JuiciosFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juiciosexhortos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juiciosexhortos/JuiciosexhortosFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juzgados
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juzgados/JuzgadosFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juzgadosmaterias
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juzgadosmaterias/JuzgadosmateriasFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/materias
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/materias/MateriasFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/municipios
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/municipios/MunicipiosFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/oficialia
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/oficialia/OficialiaFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/partes
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/partes/PartesFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/perfiles
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/perfiles/PerfilesFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/permisosgrupos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/permisosgrupos/PermisosgruposFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/permisosusuarios
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/permisosusuarios/PermisosusuariosFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/sistemas
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/sistemas/SistemasFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipos/TiposFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tiposactuaciones
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tiposactuaciones/TiposactuacionesFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tiposdocumentos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tiposdocumentos/TiposdocumentosFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipospartes
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipospartes/TipospartesFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipospersonas
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipospersonas/TipospersonasFacade.Class.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/usuarios
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/usuarios/UsuariosFacade.Class.php
+2016-02-02 11:16:24 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL FACADE**********
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/acciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/acciones/AccionesFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/actuaciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/actuaciones/ActuacionesFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/adscripciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/adscripciones/AdscripcionesFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/bitacoramovimientos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/bitacoramovimientos/BitacoramovimientosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/consignaciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/consignaciones/ConsignacionesFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/cuantias
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/cuantias/CuantiasFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/distritos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/distritos/DistritosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/estados
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/estados/EstadosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/estatusexhortos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/estatusexhortos/EstatusexhortosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/exhortos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/ExhortosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/exhortosgenerados
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortosgenerados/ExhortosgeneradosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/formularios
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/formularios/FormulariosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/generos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/generos/GenerosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/grupos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/grupos/GruposFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juicios
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juicios/JuiciosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juiciosexhortos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juiciosexhortos/JuiciosexhortosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juzgados
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juzgados/JuzgadosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/juzgadosmaterias
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/juzgadosmaterias/JuzgadosmateriasFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/materias
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/materias/MateriasFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/municipios
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/municipios/MunicipiosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/oficialia
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/oficialia/OficialiaFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/partes
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/partes/PartesFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/perfiles
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/perfiles/PerfilesFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/permisosgrupos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/permisosgrupos/PermisosgruposFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/permisosusuarios
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/permisosusuarios/PermisosusuariosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/sistemas
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/sistemas/SistemasFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipos/TiposFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tiposactuaciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tiposactuaciones/TiposactuacionesFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tiposdocumentos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tiposdocumentos/TiposdocumentosFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipospartes
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipospartes/TipospartesFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/tipospersonas
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/tipospersonas/TipospersonasFacade.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/exhortos/usuarios
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/fachadas/usuarios/UsuariosFacade.Class.php

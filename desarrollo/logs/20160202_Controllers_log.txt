@@ -1,0 +1,392 @@
+2016-02-02 9:53:29 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/acciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/acciones/AccionesController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/actuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/actuaciones/ActuacionesController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/bitacoramovimientos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/bitacoramovimientos/BitacoramovimientosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/consignaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/consignaciones/ConsignacionesController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/cuantias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/cuantias/CuantiasController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/distritos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/distritos/DistritosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/estados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/estados/EstadosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/estatusexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/estatusexhortos/EstatusexhortosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/exhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/exhortos/ExhortosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/exhortosgenerados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/exhortosgenerados/ExhortosgeneradosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/generos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/generos/GenerosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/grupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/grupos/GruposController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juicios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/juicios/JuiciosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juiciosexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/juiciosexhortos/JuiciosexhortosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juzgados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/juzgados/JuzgadosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juzgadosmaterias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/juzgadosmaterias/JuzgadosmateriasController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/materias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/materias/MateriasController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/municipios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/municipios/MunicipiosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/oficialia
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/oficialia/OficialiaController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/partes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/partes/PartesController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/perfiles
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/perfiles/PerfilesController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/permisosgrupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/permisosgrupos/PermisosgruposController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/permisosusuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/permisosusuarios/PermisosusuariosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/sistemas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/sistemas/SistemasController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tipos/TiposController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tiposactuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tiposactuaciones/TiposactuacionesController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tiposdocumentos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tiposdocumentos/TiposdocumentosController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipospartes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tipospartes/TipospartesController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipospersonas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tipospersonas/TipospersonasController.Class.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/usuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/usuarios/UsuariosController.Class.php
+2016-02-02 9:53:29 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 10:33:54 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/acciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/acciones/AccionesController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/actuaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/actuaciones/ActuacionesController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/adscripciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/adscripciones/AdscripcionesController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/bitacoramovimientos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/bitacoramovimientos/BitacoramovimientosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/consignaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/consignaciones/ConsignacionesController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/cuantias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/cuantias/CuantiasController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/distritos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/distritos/DistritosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/estados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/estados/EstadosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/estatusexhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/estatusexhortos/EstatusexhortosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/exhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/exhortos/ExhortosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/exhortosgenerados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/exhortosgenerados/ExhortosgeneradosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/formularios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/formularios/FormulariosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/generos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/generos/GenerosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/grupos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/grupos/GruposController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juicios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/juicios/JuiciosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juiciosexhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/juiciosexhortos/JuiciosexhortosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juzgados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/juzgados/JuzgadosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juzgadosmaterias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/juzgadosmaterias/JuzgadosmateriasController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/materias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/materias/MateriasController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/municipios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/municipios/MunicipiosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/oficialia
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/oficialia/OficialiaController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/partes
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/partes/PartesController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/perfiles
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/perfiles/PerfilesController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/permisosgrupos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/permisosgrupos/PermisosgruposController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/permisosusuarios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/permisosusuarios/PermisosusuariosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/sistemas
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/sistemas/SistemasController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tipos/TiposController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tiposactuaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tiposactuaciones/TiposactuacionesController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tiposdocumentos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tiposdocumentos/TiposdocumentosController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipospartes
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tipospartes/TipospartesController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipospersonas
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/tipospersonas/TipospersonasController.Class.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/usuarios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/controladores/exhortos/usuarios/UsuariosController.Class.php
+2016-02-02 10:33:54 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 10:39:50 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/acciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/acciones/AccionesController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/actuaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/actuaciones/ActuacionesController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/adscripciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/adscripciones/AdscripcionesController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/bitacoramovimientos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/bitacoramovimientos/BitacoramovimientosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/consignaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/consignaciones/ConsignacionesController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/cuantias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/cuantias/CuantiasController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/distritos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/distritos/DistritosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/estados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/estados/EstadosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/estatusexhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/estatusexhortos/EstatusexhortosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/exhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/exhortos/ExhortosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/exhortosgenerados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/exhortosgenerados/ExhortosgeneradosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/formularios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/formularios/FormulariosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/generos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/generos/GenerosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/grupos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/grupos/GruposController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juicios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/juicios/JuiciosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juiciosexhortos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/juiciosexhortos/JuiciosexhortosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juzgados
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/juzgados/JuzgadosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/juzgadosmaterias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/juzgadosmaterias/JuzgadosmateriasController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/materias
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/materias/MateriasController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/municipios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/municipios/MunicipiosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/oficialia
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/oficialia/OficialiaController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/partes
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/partes/PartesController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/perfiles
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/perfiles/PerfilesController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/permisosgrupos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/permisosgrupos/PermisosgruposController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/permisosusuarios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/permisosusuarios/PermisosusuariosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/sistemas
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/sistemas/SistemasController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/tipos/TiposController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tiposactuaciones
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/tiposactuaciones/TiposactuacionesController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tiposdocumentos
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/tiposdocumentos/TiposdocumentosController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipospartes
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/tipospartes/TipospartesController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/tipospersonas
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/tipospersonas/TipospersonasController.Class.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/controladores/usuarios
+2016-02-02 10:39:50 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR /database/html/exhortos/controladores/usuarios/UsuariosController.Class.php
+2016-02-02 10:39:50 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 11:09:12 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/acciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/acciones/AccionesController.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/actuaciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/actuaciones/ActuacionesController.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/adscripciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/adscripciones/AdscripcionesController.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/bitacoramovimientos
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/bitacoramovimientos/BitacoramovimientosController.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/consignaciones
+2016-02-02 11:09:12 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/consignaciones/ConsignacionesController.Class.php
+2016-02-02 11:09:12 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/cuantias
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/cuantias/CuantiasController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/distritos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/distritos/DistritosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estados
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estados/EstadosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estatusexhortos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estatusexhortos/EstatusexhortosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortos/ExhortosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortosgenerados
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortosgenerados/ExhortosgeneradosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/formularios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/formularios/FormulariosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/generos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/generos/GenerosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/grupos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/grupos/GruposController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juicios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juicios/JuiciosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juiciosexhortos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juiciosexhortos/JuiciosexhortosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgados
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgados/JuzgadosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgadosmaterias
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgadosmaterias/JuzgadosmateriasController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/materias
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/materias/MateriasController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/municipios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/municipios/MunicipiosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/oficialia
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/oficialia/OficialiaController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/partes
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/partes/PartesController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/perfiles
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/perfiles/PerfilesController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosgrupos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosgrupos/PermisosgruposController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosusuarios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosusuarios/PermisosusuariosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/sistemas
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/sistemas/SistemasController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipos/TiposController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposactuaciones
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposactuaciones/TiposactuacionesController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposdocumentos
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposdocumentos/TiposdocumentosController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospartes
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospartes/TipospartesController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospersonas
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospersonas/TipospersonasController.Class.php
+2016-02-02 11:09:13 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/usuarios
+2016-02-02 11:09:13 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/usuarios/UsuariosController.Class.php
+2016-02-02 11:09:13 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 11:09:45 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/acciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/acciones/AccionesController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/actuaciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/actuaciones/ActuacionesController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/adscripciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/adscripciones/AdscripcionesController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/bitacoramovimientos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/bitacoramovimientos/BitacoramovimientosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/consignaciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/consignaciones/ConsignacionesController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/cuantias
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/cuantias/CuantiasController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/distritos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/distritos/DistritosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estados
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estados/EstadosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estatusexhortos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estatusexhortos/EstatusexhortosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortos/ExhortosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortosgenerados
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortosgenerados/ExhortosgeneradosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/formularios
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/formularios/FormulariosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/generos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/generos/GenerosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/grupos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/grupos/GruposController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juicios
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juicios/JuiciosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juiciosexhortos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juiciosexhortos/JuiciosexhortosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgados
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgados/JuzgadosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgadosmaterias
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgadosmaterias/JuzgadosmateriasController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/materias
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/materias/MateriasController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/municipios
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/municipios/MunicipiosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/oficialia
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/oficialia/OficialiaController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/partes
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/partes/PartesController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/perfiles
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/perfiles/PerfilesController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosgrupos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosgrupos/PermisosgruposController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosusuarios
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosusuarios/PermisosusuariosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/sistemas
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/sistemas/SistemasController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipos/TiposController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposactuaciones
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposactuaciones/TiposactuacionesController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposdocumentos
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposdocumentos/TiposdocumentosController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospartes
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospartes/TipospartesController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospersonas
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospersonas/TipospersonasController.Class.php
+2016-02-02 11:09:45 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/usuarios
+2016-02-02 11:09:45 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/usuarios/UsuariosController.Class.php
+2016-02-02 11:09:45 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 11:16:23 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/acciones
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/acciones/AccionesController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/actuaciones
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/actuaciones/ActuacionesController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/adscripciones
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/adscripciones/AdscripcionesController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/bitacoramovimientos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/bitacoramovimientos/BitacoramovimientosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/consignaciones
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/consignaciones/ConsignacionesController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/cuantias
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/cuantias/CuantiasController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/distritos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/distritos/DistritosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estados
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estados/EstadosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estatusexhortos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/estatusexhortos/EstatusexhortosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortos/ExhortosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortosgenerados
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/exhortosgenerados/ExhortosgeneradosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/formularios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/formularios/FormulariosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/generos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/generos/GenerosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/grupos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/grupos/GruposController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juicios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juicios/JuiciosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juiciosexhortos
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juiciosexhortos/JuiciosexhortosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgados
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgados/JuzgadosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgadosmaterias
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/juzgadosmaterias/JuzgadosmateriasController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/materias
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/materias/MateriasController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/municipios
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/municipios/MunicipiosController.Class.php
+2016-02-02 11:16:23 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/oficialia
+2016-02-02 11:16:23 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/oficialia/OficialiaController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/partes
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/partes/PartesController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/perfiles
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/perfiles/PerfilesController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosgrupos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosgrupos/PermisosgruposController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosusuarios
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/permisosusuarios/PermisosusuariosController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/sistemas
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/sistemas/SistemasController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipos/TiposController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposactuaciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposactuaciones/TiposactuacionesController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposdocumentos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tiposdocumentos/TiposdocumentosController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospartes
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospartes/TipospartesController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospersonas
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/tipospersonas/TipospersonasController.Class.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/usuarios
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/controladores/usuarios/UsuariosController.Class.php
+2016-02-02 11:16:24 -->**********TERMINA EL PROGRAMA CON LA CREACION DEL CONTROLLER**********

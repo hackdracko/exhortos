@@ -1,0 +1,117 @@
+<?xml version ='1.0' encoding ='utf-8' ?>
+<definitions name='ExhortosServer' 
+             targetNamespace='http://10.22.165.168/exhortos/desarrollo/webservice/servidor/' 
+             xmlns:tns='http://10.22.165.168/exhortos/desarrollo/webservice/servidor/' 
+             xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/'
+             xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+             xmlns='http://schemas.xmlsoap.org/wsdl/'> 
+
+    <message name='insertaExhortoRequest'>
+        <part name="json" type="xsd:string"/>
+        <part name="usuario" type="xsd:string"/>    
+        <part name="passwd" type="xsd:string"/> 
+    </message>
+    <message name='insertaExhortoResponse'>          
+        <part name='Resultado' type='xsd:string'/> 
+    </message>
+
+    <message name='testImagenRequest'>
+        <part name="json" type="xsd:string"/>
+        <part name="usuario" type="xsd:string"/>    
+        <part name="passwd" type="xsd:string"/> 
+    </message>
+    <message name='testImagenResponse'>          
+        <part name='Resultado' type='xsd:string'/> 
+    </message>
+
+    <message name='ObtenerOficialiasRequest'>
+    </message>
+    <message name='ObtenerOficialiasResponse'>          
+        <part name='Resultado' type='xsd:string'/> 
+    </message>
+
+    <message name='actualizaExhortoGeneradoRequest'>
+        <part name="json" type="xsd:string"/>
+        <part name="usuario" type="xsd:string"/>    
+        <part name="passwd" type="xsd:string"/> 
+    </message>
+    <message name='actualizaExhortoGeneradoResponse'>          
+        <part name='Resultado' type='xsd:string'/> 
+    </message>
+
+    <portType name='ScramblePortType'>           
+        <operation name='insertaExhorto'>
+            <input message='tns:insertaExhortoRequest'/> 
+            <output message='tns:insertaExhortoResponse'/>   
+        </operation>
+        <operation name='testImagen'>
+            <input message='tns:testImagenRequest'/> 
+            <output message='tns:testImagenResponse'/>   
+        </operation>
+        <operation name='ObtenerOficialias'>
+            <input message='tns:ObtenerOficialiasRequest'/> 
+            <output message='tns:ObtenerOficialiasResponse'/>   
+        </operation>
+        <operation name='actualizaExhortoGenerado'>
+            <input message='tns:actualizaExhortoGeneradoRequest'/> 
+            <output message='tns:actualizaExhortoGeneradoResponse'/>
+        </operation>
+    </portType>
+
+
+
+    <binding name='ScrambleBinding' type='tns:ScramblePortType'> 
+        <soap:binding style='rpc' 
+                transport='http://schemas.xmlsoap.org/soap/http'/> 
+        <operation name='insertaExhorto'> 
+            <soap:operation soapAction='urn:10.22.165.168-scramble#insertaExhorto'/> 
+            <input> 
+                <soap:body use='encoded' namespace='urn:10.22.165.168-scramble' 
+                 encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+            </input> 
+            <output> 
+                <soap:body use='encoded' namespace='urn:10.22.165.168-scramble' 
+                 encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+            </output> 
+        </operation>
+        <operation name='testImagen'> 
+            <soap:operation soapAction='urn:10.22.165.168-scramble#testImagen'/> 
+            <input> 
+                <soap:body use='encoded' namespace='urn:10.22.165.168-scramble' 
+                 encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+            </input> 
+            <output> 
+                <soap:body use='encoded' namespace='urn:10.22.165.168-scramble' 
+                 encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+            </output> 
+        </operation>
+        <operation name='ObtenerOficialias'> 
+            <soap:operation soapAction='urn:10.22.165.168-scramble#ObtenerOficialias'/> 
+            <input> 
+                <soap:body use='encoded' namespace='urn:10.22.165.168-scramble' 
+                 encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+            </input> 
+            <output> 
+                <soap:body use='encoded' namespace='urn:10.22.165.168-scramble' 
+                 encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+            </output> 
+        </operation>
+        <operation name='actualizaExhortoGenerado'> 
+            <soap:operation soapAction='urn:10.22.165.168-scramble#actualizaExhortoGenerado'/>
+            <input> 
+                <soap:body use='encoded' namespace='urn:10.22.165.168-scramble' 
+                 encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+            </input> 
+            <output> 
+                <soap:body use='encoded' namespace='urn:10.22.165.168-scramble' 
+                 encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+            </output> 
+        </operation>
+    </binding> 
+
+    <service name='Web Services Exhortos'> 
+        <port name='ScramblePort' binding='ScrambleBinding'> 
+            <soap:address location='http://10.22.165.168/exhortos/desarrollo/webservice/servidor/exhortos/ExhortosServer.php'/> 
+        </port> 
+    </service>
+</definitions> 

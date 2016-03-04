@@ -1,0 +1,85 @@
+[03-Mar-2016 19:19:58 America/Mexico_City] PHP Warning:  unlink(): Invalid argument in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 325
+[03-Mar-2016 19:19:58 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 235
+[03-Mar-2016 19:20:42 America/Mexico_City] PHP Warning:  unlink(): Invalid argument in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 326
+[03-Mar-2016 19:20:42 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 235
+[03-Mar-2016 19:21:20 America/Mexico_City] PHP Warning:  unlink(): Invalid argument in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 326
+[03-Mar-2016 19:21:20 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 235
+[03-Mar-2016 19:21:46 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 235
+[03-Mar-2016 19:23:00 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 236
+[03-Mar-2016 19:23:41 America/Mexico_City] UPDATE tblactuaciones SET noFojas='20',sintesis='ESTA ES LA SINTESIS DE LA SEGUNDA PRUEBA',observaciones='ESTA ES LA OBSERVACION DE LA SEGUNDA PRUEBA' WHERE idActuacion='4'
+[03-Mar-2016 19:23:41 America/Mexico_City] PHP Fatal error:  Call to a member function getIdRespuestaExhorto() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 1503
+[03-Mar-2016 19:29:38 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 236
+[03-Mar-2016 19:29:49 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 236
+[03-Mar-2016 19:39:11 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 237
+[03-Mar-2016 19:40:57 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 238
+[03-Mar-2016 19:41:48 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 238
+[03-Mar-2016 19:42:08 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 238
+[03-Mar-2016 19:42:33 America/Mexico_City] PHP Fatal error:  Call to a member function getCveEstatusExhortos() on a non-object in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\controladores\exhortos\exhortos\ExhortosController.Class.php on line 239
+[04-Mar-2016 10:31:56 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='137' AND activo='S' AND inicia<='10:31:56' AND termina>='10:31:56'  ORDER BY fechaRegistro DESC
+[04-Mar-2016 10:31:56 America/Mexico_City] Juzgado Exhortado =>-2
+[04-Mar-2016 10:31:56 America/Mexico_City] regreso 
+[04-Mar-2016 10:31:56 America/Mexico_City] Array
+(
+    [status] => error
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => NO SE ENCUENTRA EN HORARIO DE ATENCION.
+                )
+
+        )
+
+)
+
+[04-Mar-2016 10:32:08 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='137' AND activo='S' AND inicia<='10:32:08' AND termina>='10:32:08'  ORDER BY fechaRegistro DESC
+[04-Mar-2016 10:32:08 America/Mexico_City] Juzgado Exhortado =>-2
+[04-Mar-2016 10:32:08 America/Mexico_City] regreso 
+[04-Mar-2016 10:32:08 America/Mexico_City] Array
+(
+    [status] => error
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => NO SE ENCUENTRA EN HORARIO DE ATENCION.
+                )
+
+        )
+
+)
+
+[04-Mar-2016 10:32:16 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='137' AND activo='S' AND inicia<='10:32:16' AND termina>='10:32:16'  ORDER BY fechaRegistro DESC
+[04-Mar-2016 10:32:16 America/Mexico_City] Juzgado Exhortado =>-2
+[04-Mar-2016 10:32:16 America/Mexico_City] regreso 
+[04-Mar-2016 10:32:16 America/Mexico_City] Array
+(
+    [status] => error
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => NO SE ENCUENTRA EN HORARIO DE ATENCION.
+                )
+
+        )
+
+)
+
+[04-Mar-2016 10:32:23 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='137' AND activo='S' AND inicia<='10:32:23' AND termina>='10:32:23'  ORDER BY fechaRegistro DESC
+[04-Mar-2016 10:32:23 America/Mexico_City] Juzgado Exhortado =>-2
+[04-Mar-2016 10:32:23 America/Mexico_City] regreso 
+[04-Mar-2016 10:32:23 America/Mexico_City] Array
+(
+    [status] => error
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => NO SE ENCUENTRA EN HORARIO DE ATENCION.
+                )
+
+        )
+
+)
+

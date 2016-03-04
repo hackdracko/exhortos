@@ -1,0 +1,386 @@
+2016-02-02 9:53:29 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL VIEW**********
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/acciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/acciones/frmAccionesView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/actuaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/actuaciones/frmActuacionesView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/bitacoramovimientos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/bitacoramovimientos/frmBitacoramovimientosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/consignaciones
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/consignaciones/frmConsignacionesView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/cuantias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/cuantias/frmCuantiasView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/distritos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/distritos/frmDistritosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/estados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/estados/frmEstadosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/estatusexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/estatusexhortos/frmEstatusexhortosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/exhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/exhortos/frmExhortosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/exhortosgenerados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/exhortosgenerados/frmExhortosgeneradosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/generos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/generos/frmGenerosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/grupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/grupos/frmGruposView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juicios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juicios/frmJuiciosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juiciosexhortos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juiciosexhortos/frmJuiciosexhortosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juzgados
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juzgados/frmJuzgadosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juzgadosmaterias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juzgadosmaterias/frmJuzgadosmateriasView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/materias
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/materias/frmMateriasView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/municipios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/municipios/frmMunicipiosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/oficialia
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/oficialia/frmOficialiaView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/partes
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/partes/frmPartesView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/perfiles
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/perfiles/frmPerfilesView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/permisosgrupos
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/permisosgrupos/frmPermisosgruposView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/permisosusuarios
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/permisosusuarios/frmPermisosusuariosView.php
+2016-02-02 9:53:29 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/sistemas
+2016-02-02 9:53:29 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/sistemas/frmSistemasView.php
+2016-02-02 9:53:30 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipos
+2016-02-02 9:53:30 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipos/frmTiposView.php
+2016-02-02 9:53:30 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tiposactuaciones
+2016-02-02 9:53:30 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tiposactuaciones/frmTiposactuacionesView.php
+2016-02-02 9:53:30 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tiposdocumentos
+2016-02-02 9:53:30 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tiposdocumentos/frmTiposdocumentosView.php
+2016-02-02 9:53:30 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipospartes
+2016-02-02 9:53:30 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipospartes/frmTipospartesView.php
+2016-02-02 9:53:30 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipospersonas
+2016-02-02 9:53:30 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipospersonas/frmTipospersonasView.php
+2016-02-02 9:53:30 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/usuarios
+2016-02-02 9:53:30 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/usuarios/frmUsuariosView.php
+2016-02-02 10:33:54 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL VIEW**********
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/acciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/acciones/frmAccionesView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/actuaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/actuaciones/frmActuacionesView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/adscripciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/adscripciones/frmAdscripcionesView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/bitacoramovimientos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/bitacoramovimientos/frmBitacoramovimientosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/consignaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/consignaciones/frmConsignacionesView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/cuantias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/cuantias/frmCuantiasView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/distritos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/distritos/frmDistritosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/estados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/estados/frmEstadosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/estatusexhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/estatusexhortos/frmEstatusexhortosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/exhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/exhortos/frmExhortosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/exhortosgenerados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/exhortosgenerados/frmExhortosgeneradosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/formularios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/formularios/frmFormulariosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/generos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/generos/frmGenerosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/grupos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/grupos/frmGruposView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juicios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juicios/frmJuiciosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juiciosexhortos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juiciosexhortos/frmJuiciosexhortosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juzgados
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juzgados/frmJuzgadosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juzgadosmaterias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juzgadosmaterias/frmJuzgadosmateriasView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/materias
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/materias/frmMateriasView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/municipios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/municipios/frmMunicipiosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/oficialia
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/oficialia/frmOficialiaView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/partes
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/partes/frmPartesView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/perfiles
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/perfiles/frmPerfilesView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/permisosgrupos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/permisosgrupos/frmPermisosgruposView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/permisosusuarios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/permisosusuarios/frmPermisosusuariosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/sistemas
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/sistemas/frmSistemasView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipos/frmTiposView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tiposactuaciones
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tiposactuaciones/frmTiposactuacionesView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tiposdocumentos
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tiposdocumentos/frmTiposdocumentosView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipospartes
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipospartes/frmTipospartesView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipospersonas
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipospersonas/frmTipospersonasView.php
+2016-02-02 10:33:54 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/usuarios
+2016-02-02 10:33:54 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/usuarios/frmUsuariosView.php
+2016-02-02 10:39:50 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL VIEW**********
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/acciones
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/acciones/frmAccionesView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/actuaciones
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/actuaciones/frmActuacionesView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/adscripciones
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/adscripciones/frmAdscripcionesView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/bitacoramovimientos
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/bitacoramovimientos/frmBitacoramovimientosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/consignaciones
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/consignaciones/frmConsignacionesView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/cuantias
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/cuantias/frmCuantiasView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/distritos
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/distritos/frmDistritosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/estados
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/estados/frmEstadosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/estatusexhortos
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/estatusexhortos/frmEstatusexhortosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/exhortos
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/exhortos/frmExhortosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/exhortosgenerados
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/exhortosgenerados/frmExhortosgeneradosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/formularios
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/formularios/frmFormulariosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/generos
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/generos/frmGenerosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/grupos
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/grupos/frmGruposView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juicios
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juicios/frmJuiciosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juiciosexhortos
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juiciosexhortos/frmJuiciosexhortosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juzgados
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juzgados/frmJuzgadosView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/juzgadosmaterias
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/juzgadosmaterias/frmJuzgadosmateriasView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/materias
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/materias/frmMateriasView.php
+2016-02-02 10:39:50 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/municipios
+2016-02-02 10:39:50 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/municipios/frmMunicipiosView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/oficialia
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/oficialia/frmOficialiaView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/partes
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/partes/frmPartesView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/perfiles
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/perfiles/frmPerfilesView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/permisosgrupos
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/permisosgrupos/frmPermisosgruposView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/permisosusuarios
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/permisosusuarios/frmPermisosusuariosView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/sistemas
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/sistemas/frmSistemasView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipos
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipos/frmTiposView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tiposactuaciones
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tiposactuaciones/frmTiposactuacionesView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tiposdocumentos
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tiposdocumentos/frmTiposdocumentosView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipospartes
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipospartes/frmTipospartesView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/tipospersonas
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/tipospersonas/frmTipospersonasView.php
+2016-02-02 10:39:51 -->CREAMOS EL DIRECTORIO: /database/html/exhortos/vistas/exhortos/usuarios
+2016-02-02 10:39:51 -->CREAMOS EL ARCHIVO: /database/html/exhortos/vistas/exhortos/usuarios/frmUsuariosView.php
+2016-02-02 11:09:14 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL VIEW**********
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/acciones
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/acciones/frmAccionesView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/actuaciones
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/actuaciones/frmActuacionesView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/adscripciones
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/adscripciones/frmAdscripcionesView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/bitacoramovimientos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/bitacoramovimientos/frmBitacoramovimientosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/consignaciones
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/consignaciones/frmConsignacionesView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/cuantias
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/cuantias/frmCuantiasView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/distritos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/distritos/frmDistritosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/estados
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/estados/frmEstadosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/estatusexhortos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/estatusexhortos/frmEstatusexhortosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/exhortos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/frmExhortosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/exhortosgenerados
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortosgenerados/frmExhortosgeneradosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/formularios
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/formularios/frmFormulariosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/generos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/generos/frmGenerosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/grupos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/grupos/frmGruposView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juicios
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juicios/frmJuiciosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juiciosexhortos
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juiciosexhortos/frmJuiciosexhortosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juzgados
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juzgados/frmJuzgadosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juzgadosmaterias
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juzgadosmaterias/frmJuzgadosmateriasView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/materias
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/materias/frmMateriasView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/municipios
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/municipios/frmMunicipiosView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/oficialia
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/oficialia/frmOficialiaView.php
+2016-02-02 11:09:14 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/partes
+2016-02-02 11:09:14 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/partes/frmPartesView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/perfiles
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/perfiles/frmPerfilesView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/permisosgrupos
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/permisosgrupos/frmPermisosgruposView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/permisosusuarios
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/permisosusuarios/frmPermisosusuariosView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/sistemas
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/sistemas/frmSistemasView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipos
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipos/frmTiposView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tiposactuaciones
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tiposactuaciones/frmTiposactuacionesView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tiposdocumentos
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tiposdocumentos/frmTiposdocumentosView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipospartes
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipospartes/frmTipospartesView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipospersonas
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipospersonas/frmTipospersonasView.php
+2016-02-02 11:09:15 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/usuarios
+2016-02-02 11:09:15 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/usuarios/frmUsuariosView.php
+2016-02-02 11:09:46 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL VIEW**********
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/acciones
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/acciones/frmAccionesView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/actuaciones
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/actuaciones/frmActuacionesView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/adscripciones
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/adscripciones/frmAdscripcionesView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/bitacoramovimientos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/bitacoramovimientos/frmBitacoramovimientosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/consignaciones
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/consignaciones/frmConsignacionesView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/cuantias
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/cuantias/frmCuantiasView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/distritos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/distritos/frmDistritosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/estados
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/estados/frmEstadosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/estatusexhortos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/estatusexhortos/frmEstatusexhortosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/exhortos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/frmExhortosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/exhortosgenerados
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortosgenerados/frmExhortosgeneradosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/formularios
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/formularios/frmFormulariosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/generos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/generos/frmGenerosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/grupos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/grupos/frmGruposView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juicios
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juicios/frmJuiciosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juiciosexhortos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juiciosexhortos/frmJuiciosexhortosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juzgados
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juzgados/frmJuzgadosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juzgadosmaterias
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juzgadosmaterias/frmJuzgadosmateriasView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/materias
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/materias/frmMateriasView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/municipios
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/municipios/frmMunicipiosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/oficialia
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/oficialia/frmOficialiaView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/partes
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/partes/frmPartesView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/perfiles
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/perfiles/frmPerfilesView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/permisosgrupos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/permisosgrupos/frmPermisosgruposView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/permisosusuarios
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/permisosusuarios/frmPermisosusuariosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/sistemas
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/sistemas/frmSistemasView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipos/frmTiposView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tiposactuaciones
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tiposactuaciones/frmTiposactuacionesView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tiposdocumentos
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tiposdocumentos/frmTiposdocumentosView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipospartes
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipospartes/frmTipospartesView.php
+2016-02-02 11:09:46 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipospersonas
+2016-02-02 11:09:46 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipospersonas/frmTipospersonasView.php
+2016-02-02 11:09:47 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/usuarios
+2016-02-02 11:09:47 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/usuarios/frmUsuariosView.php
+2016-02-02 11:16:24 -->**********COMIENZA EL PROGRAMA CON LA CREACION DEL VIEW**********
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/acciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/acciones/frmAccionesView.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/actuaciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/actuaciones/frmActuacionesView.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/adscripciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/adscripciones/frmAdscripcionesView.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/bitacoramovimientos
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/bitacoramovimientos/frmBitacoramovimientosView.php
+2016-02-02 11:16:24 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/consignaciones
+2016-02-02 11:16:24 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/consignaciones/frmConsignacionesView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/cuantias
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/cuantias/frmCuantiasView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/distritos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/distritos/frmDistritosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/estados
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/estados/frmEstadosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/estatusexhortos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/estatusexhortos/frmEstatusexhortosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/exhortos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/frmExhortosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/exhortosgenerados
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortosgenerados/frmExhortosgeneradosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/formularios
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/formularios/frmFormulariosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/generos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/generos/frmGenerosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/grupos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/grupos/frmGruposView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juicios
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juicios/frmJuiciosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juiciosexhortos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juiciosexhortos/frmJuiciosexhortosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juzgados
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juzgados/frmJuzgadosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/juzgadosmaterias
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/juzgadosmaterias/frmJuzgadosmateriasView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/materias
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/materias/frmMateriasView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/municipios
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/municipios/frmMunicipiosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/oficialia
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/oficialia/frmOficialiaView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/partes
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/partes/frmPartesView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/perfiles
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/perfiles/frmPerfilesView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/permisosgrupos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/permisosgrupos/frmPermisosgruposView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/permisosusuarios
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/permisosusuarios/frmPermisosusuariosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/sistemas
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/sistemas/frmSistemasView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipos/frmTiposView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tiposactuaciones
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tiposactuaciones/frmTiposactuacionesView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tiposdocumentos
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tiposdocumentos/frmTiposdocumentosView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipospartes
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipospartes/frmTipospartesView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/tipospersonas
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/tipospersonas/frmTipospersonasView.php
+2016-02-02 11:16:25 -->CREAMOS EL DIRECTORIO: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/exhortos/usuarios
+2016-02-02 11:16:25 -->EL ARCHIVO YA EXISTE NO SE PUEDE REESCRIBIR C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo/vistas/usuarios/frmUsuariosView.php

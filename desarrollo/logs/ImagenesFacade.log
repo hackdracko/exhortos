@@ -1,0 +1,1154 @@
+[03-Mar-2016 17:34:27 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='17:34:27' AND termina>='17:34:27'  ORDER BY fechaRegistro DESC
+[03-Mar-2016 17:34:27 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='17:34:27' AND termina>='17:34:27' ORDER BY fechaRegistro DESC
+[03-Mar-2016 17:34:27 America/Mexico_City]  SELECT  cveJuzgadoMateria,cveJuzgado,cveMateria,cveCuantia,cveTipo,activo,fechaRegistro,fechaActualizacion  FROM tbljuzgadosmaterias  WHERE cveJuzgado in (181,182,184,185) AND cveMateria='2' AND cveCuantia='1'
+[03-Mar-2016 17:34:27 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 17:34:27 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 17:34:27 America/Mexico_City] Juzgado Exhortado =>181
+[03-Mar-2016 17:34:27 America/Mexico_City] Array
+(
+    [status] => ok
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => Se inserto correctamente
+                    [idExhorto] => 1
+                    [idContador] => 1
+                    [numero] => 1
+                    [anio] => 2016
+                    [juicioExhorto] => Array
+                        (
+                            [cveJuicio] => 141
+                            [otroJuicio] => FUNCIONES DE SINDICO
+                        )
+
+                    [juzgadoAsignado] => Array
+                        (
+                            [cveJuzgado] => 181
+                            [desJuzgado] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+                        )
+
+                )
+
+        )
+
+)
+
+[03-Mar-2016 17:34:27 America/Mexico_City] se recibieron documentos
+[03-Mar-2016 17:34:27 America/Mexico_City] Folder => 1181mypdf
+[03-Mar-2016 17:34:28 America/Mexico_City] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('1','0','8','1',now(),now())
+[03-Mar-2016 17:34:28 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('1','1','../../../imagenes/181/2016/EXHORTO/1/1EXHO.pdf','1','N',now(),now())
+[03-Mar-2016 17:34:28 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('1','1','../../../imagenes/181/2016/EXHORTO/1/2EXHO.pdf','2','N',now(),now())
+[03-Mar-2016 17:36:54 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='17:36:54' AND termina>='17:36:54'  ORDER BY fechaRegistro DESC
+[03-Mar-2016 17:36:54 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='17:36:54' AND termina>='17:36:54' ORDER BY fechaRegistro DESC
+[03-Mar-2016 17:36:54 America/Mexico_City]  SELECT  cveJuzgadoMateria,cveJuzgado,cveMateria,cveCuantia,cveTipo,activo,fechaRegistro,fechaActualizacion  FROM tbljuzgadosmaterias  WHERE cveJuzgado in (181,182,184,185) AND cveMateria='2' AND cveCuantia='1'
+[03-Mar-2016 17:36:54 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 17:36:54 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 17:36:54 America/Mexico_City] Juzgado Exhortado =>182
+[03-Mar-2016 17:36:57 America/Mexico_City] Array
+(
+    [status] => ok
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => Se inserto correctamente
+                    [idExhorto] => 2
+                    [idContador] => 2
+                    [numero] => 1
+                    [anio] => 2016
+                    [juicioExhorto] => Array
+                        (
+                            [cveJuicio] => 141
+                            [otroJuicio] => FUNCIONES DE SINDICO
+                        )
+
+                    [juzgadoAsignado] => Array
+                        (
+                            [cveJuzgado] => 182
+                            [desJuzgado] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+                        )
+
+                )
+
+        )
+
+)
+
+[03-Mar-2016 17:36:57 America/Mexico_City] se recibieron documentos
+[03-Mar-2016 17:36:57 America/Mexico_City] Folder => 2182mypdf
+[03-Mar-2016 17:36:57 America/Mexico_City] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('2','0','8','1',now(),now())
+[03-Mar-2016 17:36:58 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/EXHORTO/1/1EXHO.pdf','1','N',now(),now())
+[03-Mar-2016 17:37:00 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/EXHORTO/1/2EXHO.pdf','2','N',now(),now())
+[03-Mar-2016 17:37:01 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/EXHORTO/1/3EXHO.pdf','3','N',now(),now())
+[03-Mar-2016 17:37:02 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/EXHORTO/1/4EXHO.pdf','4','N',now(),now())
+[03-Mar-2016 17:37:02 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/EXHORTO/1/5EXHO.pdf','5','N',now(),now())
+[03-Mar-2016 17:43:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\exhortos\desarrollo\webservice\servidor\exhortos\ExhortosServer.php on line 25
+[03-Mar-2016 17:45:05 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='17:45:05' AND termina>='17:45:05'  ORDER BY fechaRegistro DESC
+[03-Mar-2016 17:45:05 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='17:45:05' AND termina>='17:45:05' ORDER BY fechaRegistro DESC
+[03-Mar-2016 17:45:05 America/Mexico_City]  SELECT  cveJuzgadoMateria,cveJuzgado,cveMateria,cveCuantia,cveTipo,activo,fechaRegistro,fechaActualizacion  FROM tbljuzgadosmaterias  WHERE cveJuzgado in (181,182,184,185) AND cveMateria='2' AND cveCuantia='1'
+[03-Mar-2016 17:45:05 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 17:45:05 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 17:45:05 America/Mexico_City] Juzgado Exhortado =>181
+[03-Mar-2016 17:45:05 America/Mexico_City] Array
+(
+    [status] => ok
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => Se inserto correctamente
+                    [idExhorto] => 3
+                    [idContador] => 1
+                    [numero] => 2
+                    [anio] => 2016
+                    [juicioExhorto] => Array
+                        (
+                            [cveJuicio] => 197
+                            [otroJuicio] =>  
+                        )
+
+                    [juzgadoAsignado] => Array
+                        (
+                            [cveJuzgado] => 181
+                            [desJuzgado] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+                        )
+
+                )
+
+        )
+
+)
+
+[03-Mar-2016 17:45:05 America/Mexico_City] se recibieron documentos
+[03-Mar-2016 17:45:05 America/Mexico_City] Folder => 3181mypdf
+[03-Mar-2016 17:45:05 America/Mexico_City] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('3','0','8','1',now(),now())
+[03-Mar-2016 17:45:05 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('3','1','../../../imagenes/181/2016/EXHORTO/2/1EXHO.pdf','1','N',now(),now())
+[03-Mar-2016 17:45:06 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('3','1','../../../imagenes/181/2016/EXHORTO/2/2EXHO.pdf','2','N',now(),now())
+[04-Mar-2016 00:48:32 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','1','11','1',now(),now())
+[04-Mar-2016 00:48:32 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/OFICIO/1/1OFCO.pdf','1','N',now(),now())
+[04-Mar-2016 00:48:34 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/OFICIO/1/2OFCO.pdf','2','N',now(),now())
+[04-Mar-2016 00:48:34 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/OFICIO/1/3OFCO.pdf','3','N',now(),now())
+[04-Mar-2016 00:48:34 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/OFICIO/1/4OFCO.pdf','4','N',now(),now())
+[04-Mar-2016 00:48:35 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/OFICIO/1/5OFCO.pdf','5','N',now(),now())
+[04-Mar-2016 00:48:35 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/OFICIO/1/6OFCO.pdf','6','N',now(),now())
+[04-Mar-2016 00:53:44 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','2','11','1',now(),now())
+[04-Mar-2016 00:53:44 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('5','1','../../../imagenes/181/2016/OFICIO/2/1OFCO.pdf','1','N',now(),now())
+[04-Mar-2016 00:53:45 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('5','1','../../../imagenes/181/2016/OFICIO/2/2OFCO.pdf','2','N',now(),now())
+[04-Mar-2016 00:53:45 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('5','1','../../../imagenes/181/2016/OFICIO/2/3OFCO.pdf','3','N',now(),now())
+[04-Mar-2016 00:53:46 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('5','1','../../../imagenes/181/2016/OFICIO/2/4OFCO.pdf','4','N',now(),now())
+[03-Mar-2016 17:58:02 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='17:58:02' AND termina>='17:58:02'  ORDER BY fechaRegistro DESC
+[03-Mar-2016 17:58:02 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='17:58:02' AND termina>='17:58:02' ORDER BY fechaRegistro DESC
+[03-Mar-2016 17:58:02 America/Mexico_City]  SELECT  cveJuzgadoMateria,cveJuzgado,cveMateria,cveCuantia,cveTipo,activo,fechaRegistro,fechaActualizacion  FROM tbljuzgadosmaterias  WHERE cveJuzgado in (181,182,184,185) AND cveMateria='2' AND cveCuantia='1'
+[03-Mar-2016 17:58:02 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 17:58:02 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 17:58:02 America/Mexico_City] Juzgado Exhortado =>182
+[03-Mar-2016 17:58:03 America/Mexico_City] Array
+(
+    [status] => ok
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => Se inserto correctamente
+                    [idExhorto] => 1
+                    [idContador] => 1
+                    [numero] => 1
+                    [anio] => 2016
+                    [juicioExhorto] => Array
+                        (
+                            [cveJuicio] => 152
+                            [otroJuicio] => JURISDICCION MIXTA
+                        )
+
+                    [juzgadoAsignado] => Array
+                        (
+                            [cveJuzgado] => 182
+                            [desJuzgado] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+                        )
+
+                )
+
+        )
+
+)
+
+[03-Mar-2016 17:58:03 America/Mexico_City] se recibieron documentos
+[03-Mar-2016 17:58:03 America/Mexico_City] Folder => 1182mypdf
+[03-Mar-2016 17:58:03 America/Mexico_City] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('1','0','8','1',now(),now())
+[03-Mar-2016 17:58:03 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('1','1','../../../imagenes/182/2016/EXHORTO/1/1EXHO.pdf','1','N',now(),now())
+[03-Mar-2016 17:58:03 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('1','1','../../../imagenes/182/2016/EXHORTO/1/2EXHO.pdf','2','N',now(),now())
+[03-Mar-2016 17:58:03 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('1','1','../../../imagenes/182/2016/EXHORTO/1/3EXHO.pdf','3','N',now(),now())
+[04-Mar-2016 00:59:51 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','1','11','1',now(),now())
+[04-Mar-2016 00:59:51 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/OFICIO/1/1OFCO.pdf','1','N',now(),now())
+[04-Mar-2016 00:59:53 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/OFICIO/1/2OFCO.pdf','2','N',now(),now())
+[04-Mar-2016 00:59:54 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/OFICIO/1/3OFCO.pdf','3','N',now(),now())
+[04-Mar-2016 00:59:54 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/OFICIO/1/4OFCO.pdf','4','N',now(),now())
+[04-Mar-2016 00:59:57 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('2','1','../../../imagenes/182/2016/OFICIO/1/5OFCO.pdf','5','N',now(),now())
+[04-Mar-2016 01:17:37 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','2','9','1',now(),now())
+[04-Mar-2016 01:17:37 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('3','1','../../../imagenes/182/2016/EXHORTO GENERADO/2/1EXHG.pdf','1','N',now(),now())
+[04-Mar-2016 01:17:38 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('3','1','../../../imagenes/182/2016/EXHORTO GENERADO/2/2EXHG.pdf','2','N',now(),now())
+[04-Mar-2016 01:29:43 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','3','9','1',now(),now())
+[04-Mar-2016 01:29:43 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/EXHORTO GENERADO/3/1EXHG.pdf','1','N',now(),now())
+[04-Mar-2016 01:29:49 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/EXHORTO GENERADO/3/2EXHG.pdf','2','N',now(),now())
+[04-Mar-2016 01:29:50 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('4','1','../../../imagenes/182/2016/EXHORTO GENERADO/3/3EXHG.pdf','3','N',now(),now())
+[03-Mar-2016 19:06:18 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='19:06:18' AND termina>='19:06:18'  ORDER BY fechaRegistro DESC
+[03-Mar-2016 19:06:18 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='19:06:18' AND termina>='19:06:18' ORDER BY fechaRegistro DESC
+[03-Mar-2016 19:06:18 America/Mexico_City]  SELECT  cveJuzgadoMateria,cveJuzgado,cveMateria,cveCuantia,cveTipo,activo,fechaRegistro,fechaActualizacion  FROM tbljuzgadosmaterias  WHERE cveJuzgado in (181,182,184,185) AND cveMateria='2' AND cveCuantia='1'
+[03-Mar-2016 19:06:18 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 19:06:18 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 19:06:18 America/Mexico_City] Juzgado Exhortado =>182
+[03-Mar-2016 19:06:19 America/Mexico_City] Array
+(
+    [status] => ok
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => Se inserto correctamente
+                    [idExhorto] => 2
+                    [idContador] => 1
+                    [numero] => 3
+                    [anio] => 2016
+                    [juicioExhorto] => Array
+                        (
+                            [cveJuicio] => 152
+                            [otroJuicio] => JURISDICCION MIXTA
+                        )
+
+                    [juzgadoAsignado] => Array
+                        (
+                            [cveJuzgado] => 182
+                            [desJuzgado] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+                        )
+
+                )
+
+        )
+
+)
+
+[03-Mar-2016 19:06:19 America/Mexico_City] se recibieron documentos
+[03-Mar-2016 19:06:19 America/Mexico_City] Folder => 2182mypdf
+[03-Mar-2016 19:06:20 America/Mexico_City] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('2','0','8','1',now(),now())
+[03-Mar-2016 19:06:20 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/1EXHO.pdf','1','N',now(),now())
+[03-Mar-2016 19:06:21 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/2EXHO.pdf','2','N',now(),now())
+[03-Mar-2016 19:06:21 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/3EXHO.pdf','3','N',now(),now())
+[03-Mar-2016 19:06:22 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/4EXHO.pdf','4','N',now(),now())
+[03-Mar-2016 19:06:22 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/5EXHO.pdf','5','N',now(),now())
+[03-Mar-2016 19:06:23 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/6EXHO.pdf','6','N',now(),now())
+[03-Mar-2016 19:06:23 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/7EXHO.pdf','7','N',now(),now())
+[03-Mar-2016 19:06:24 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/8EXHO.pdf','8','N',now(),now())
+[03-Mar-2016 19:06:24 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/9EXHO.pdf','9','N',now(),now())
+[03-Mar-2016 19:06:24 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/10EXHO.pdf','10','N',now(),now())
+[03-Mar-2016 19:06:25 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/11EXHO.pdf','11','N',now(),now())
+[03-Mar-2016 19:06:25 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/12EXHO.pdf','12','N',now(),now())
+[03-Mar-2016 19:06:26 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/13EXHO.pdf','13','N',now(),now())
+[03-Mar-2016 19:06:26 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/14EXHO.pdf','14','N',now(),now())
+[03-Mar-2016 19:06:26 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/15EXHO.pdf','15','N',now(),now())
+[03-Mar-2016 19:06:27 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/16EXHO.pdf','16','N',now(),now())
+[03-Mar-2016 19:06:27 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/17EXHO.pdf','17','N',now(),now())
+[03-Mar-2016 19:06:27 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/18EXHO.pdf','18','N',now(),now())
+[03-Mar-2016 19:06:28 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/19EXHO.pdf','19','N',now(),now())
+[03-Mar-2016 19:06:28 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/20EXHO.pdf','20','N',now(),now())
+[03-Mar-2016 19:06:28 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/21EXHO.pdf','21','N',now(),now())
+[03-Mar-2016 19:06:29 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/22EXHO.pdf','22','N',now(),now())
+[03-Mar-2016 19:06:29 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/23EXHO.pdf','23','N',now(),now())
+[03-Mar-2016 19:06:30 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/24EXHO.pdf','24','N',now(),now())
+[03-Mar-2016 19:06:30 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/25EXHO.pdf','25','N',now(),now())
+[03-Mar-2016 19:06:30 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/26EXHO.pdf','26','N',now(),now())
+[03-Mar-2016 19:06:31 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/27EXHO.pdf','27','N',now(),now())
+[03-Mar-2016 19:06:31 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/28EXHO.pdf','28','N',now(),now())
+[03-Mar-2016 19:06:31 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/29EXHO.pdf','29','N',now(),now())
+[03-Mar-2016 19:06:32 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/30EXHO.pdf','30','N',now(),now())
+[03-Mar-2016 19:06:32 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/31EXHO.pdf','31','N',now(),now())
+[03-Mar-2016 19:06:33 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/32EXHO.pdf','32','N',now(),now())
+[03-Mar-2016 19:06:33 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/33EXHO.pdf','33','N',now(),now())
+[03-Mar-2016 19:06:34 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/34EXHO.pdf','34','N',now(),now())
+[03-Mar-2016 19:06:35 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/35EXHO.pdf','35','N',now(),now())
+[03-Mar-2016 19:06:35 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/36EXHO.pdf','36','N',now(),now())
+[03-Mar-2016 19:06:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/37EXHO.pdf','37','N',now(),now())
+[03-Mar-2016 19:06:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/38EXHO.pdf','38','N',now(),now())
+[03-Mar-2016 19:06:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/39EXHO.pdf','39','N',now(),now())
+[03-Mar-2016 19:06:37 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/40EXHO.pdf','40','N',now(),now())
+[03-Mar-2016 19:06:37 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/41EXHO.pdf','41','N',now(),now())
+[03-Mar-2016 19:06:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/42EXHO.pdf','42','N',now(),now())
+[03-Mar-2016 19:06:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/43EXHO.pdf','43','N',now(),now())
+[03-Mar-2016 19:06:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/44EXHO.pdf','44','N',now(),now())
+[03-Mar-2016 19:06:39 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/45EXHO.pdf','45','N',now(),now())
+[03-Mar-2016 19:06:39 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/46EXHO.pdf','46','N',now(),now())
+[03-Mar-2016 19:06:39 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/47EXHO.pdf','47','N',now(),now())
+[03-Mar-2016 19:06:39 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/48EXHO.pdf','48','N',now(),now())
+[03-Mar-2016 19:06:40 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/49EXHO.pdf','49','N',now(),now())
+[03-Mar-2016 19:06:40 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/50EXHO.pdf','50','N',now(),now())
+[03-Mar-2016 19:06:40 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/51EXHO.pdf','51','N',now(),now())
+[03-Mar-2016 19:06:41 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/52EXHO.pdf','52','N',now(),now())
+[03-Mar-2016 19:06:41 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/53EXHO.pdf','53','N',now(),now())
+[03-Mar-2016 19:06:41 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/54EXHO.pdf','54','N',now(),now())
+[03-Mar-2016 19:06:42 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/55EXHO.pdf','55','N',now(),now())
+[03-Mar-2016 19:06:42 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/56EXHO.pdf','56','N',now(),now())
+[03-Mar-2016 19:06:42 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/57EXHO.pdf','57','N',now(),now())
+[03-Mar-2016 19:06:42 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/58EXHO.pdf','58','N',now(),now())
+[03-Mar-2016 19:06:43 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/59EXHO.pdf','59','N',now(),now())
+[03-Mar-2016 19:06:43 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/60EXHO.pdf','60','N',now(),now())
+[03-Mar-2016 19:06:44 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/61EXHO.pdf','61','N',now(),now())
+[03-Mar-2016 19:06:44 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/62EXHO.pdf','62','N',now(),now())
+[03-Mar-2016 19:06:45 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/63EXHO.pdf','63','N',now(),now())
+[03-Mar-2016 19:06:45 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/64EXHO.pdf','64','N',now(),now())
+[03-Mar-2016 19:06:45 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/65EXHO.pdf','65','N',now(),now())
+[03-Mar-2016 19:06:46 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/66EXHO.pdf','66','N',now(),now())
+[03-Mar-2016 19:06:46 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/67EXHO.pdf','67','N',now(),now())
+[03-Mar-2016 19:06:47 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/68EXHO.pdf','68','N',now(),now())
+[03-Mar-2016 19:06:48 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/69EXHO.pdf','69','N',now(),now())
+[03-Mar-2016 19:06:49 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/70EXHO.pdf','70','N',now(),now())
+[03-Mar-2016 19:06:49 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/71EXHO.pdf','71','N',now(),now())
+[03-Mar-2016 19:06:49 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/72EXHO.pdf','72','N',now(),now())
+[03-Mar-2016 19:06:50 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/73EXHO.pdf','73','N',now(),now())
+[03-Mar-2016 19:06:50 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/74EXHO.pdf','74','N',now(),now())
+[03-Mar-2016 19:06:50 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/75EXHO.pdf','75','N',now(),now())
+[03-Mar-2016 19:06:51 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/76EXHO.pdf','76','N',now(),now())
+[03-Mar-2016 19:06:51 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/77EXHO.pdf','77','N',now(),now())
+[03-Mar-2016 19:06:52 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/78EXHO.pdf','78','N',now(),now())
+[03-Mar-2016 19:06:52 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/79EXHO.pdf','79','N',now(),now())
+[03-Mar-2016 19:06:52 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/80EXHO.pdf','80','N',now(),now())
+[03-Mar-2016 19:06:53 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/81EXHO.pdf','81','N',now(),now())
+[03-Mar-2016 19:06:53 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/82EXHO.pdf','82','N',now(),now())
+[03-Mar-2016 19:06:54 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/83EXHO.pdf','83','N',now(),now())
+[03-Mar-2016 19:06:54 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/84EXHO.pdf','84','N',now(),now())
+[03-Mar-2016 19:06:56 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/85EXHO.pdf','85','N',now(),now())
+[03-Mar-2016 19:06:56 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/86EXHO.pdf','86','N',now(),now())
+[03-Mar-2016 19:06:57 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/87EXHO.pdf','87','N',now(),now())
+[03-Mar-2016 19:06:58 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/88EXHO.pdf','88','N',now(),now())
+[03-Mar-2016 19:06:58 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/89EXHO.pdf','89','N',now(),now())
+[03-Mar-2016 19:06:58 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/90EXHO.pdf','90','N',now(),now())
+[03-Mar-2016 19:06:59 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/91EXHO.pdf','91','N',now(),now())
+[03-Mar-2016 19:07:00 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/92EXHO.pdf','92','N',now(),now())
+[03-Mar-2016 19:07:00 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/93EXHO.pdf','93','N',now(),now())
+[03-Mar-2016 19:07:01 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/94EXHO.pdf','94','N',now(),now())
+[03-Mar-2016 19:07:01 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/95EXHO.pdf','95','N',now(),now())
+[03-Mar-2016 19:07:01 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/96EXHO.pdf','96','N',now(),now())
+[03-Mar-2016 19:07:02 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/97EXHO.pdf','97','N',now(),now())
+[03-Mar-2016 19:07:03 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/98EXHO.pdf','98','N',now(),now())
+[03-Mar-2016 19:07:04 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/99EXHO.pdf','99','N',now(),now())
+[03-Mar-2016 19:07:04 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/100EXHO.pdf','100','N',now(),now())
+[03-Mar-2016 19:07:05 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/101EXHO.pdf','101','N',now(),now())
+[03-Mar-2016 19:07:06 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/102EXHO.pdf','102','N',now(),now())
+[03-Mar-2016 19:07:07 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/103EXHO.pdf','103','N',now(),now())
+[03-Mar-2016 19:07:08 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/104EXHO.pdf','104','N',now(),now())
+[03-Mar-2016 19:07:08 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/105EXHO.pdf','105','N',now(),now())
+[03-Mar-2016 19:07:08 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/106EXHO.pdf','106','N',now(),now())
+[03-Mar-2016 19:07:09 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/107EXHO.pdf','107','N',now(),now())
+[03-Mar-2016 19:07:09 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/108EXHO.pdf','108','N',now(),now())
+[03-Mar-2016 19:07:09 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/109EXHO.pdf','109','N',now(),now())
+[03-Mar-2016 19:07:09 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/110EXHO.pdf','110','N',now(),now())
+[03-Mar-2016 19:07:10 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/111EXHO.pdf','111','N',now(),now())
+[03-Mar-2016 19:07:10 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/112EXHO.pdf','112','N',now(),now())
+[03-Mar-2016 19:07:10 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/113EXHO.pdf','113','N',now(),now())
+[03-Mar-2016 19:07:11 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/114EXHO.pdf','114','N',now(),now())
+[03-Mar-2016 19:07:11 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/115EXHO.pdf','115','N',now(),now())
+[03-Mar-2016 19:07:11 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/116EXHO.pdf','116','N',now(),now())
+[03-Mar-2016 19:07:11 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/117EXHO.pdf','117','N',now(),now())
+[03-Mar-2016 19:07:12 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/118EXHO.pdf','118','N',now(),now())
+[03-Mar-2016 19:07:12 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/119EXHO.pdf','119','N',now(),now())
+[03-Mar-2016 19:07:12 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/120EXHO.pdf','120','N',now(),now())
+[03-Mar-2016 19:07:13 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/121EXHO.pdf','121','N',now(),now())
+[03-Mar-2016 19:07:13 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/122EXHO.pdf','122','N',now(),now())
+[03-Mar-2016 19:07:13 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/123EXHO.pdf','123','N',now(),now())
+[03-Mar-2016 19:07:13 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/124EXHO.pdf','124','N',now(),now())
+[03-Mar-2016 19:07:14 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/125EXHO.pdf','125','N',now(),now())
+[03-Mar-2016 19:07:14 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/126EXHO.pdf','126','N',now(),now())
+[03-Mar-2016 19:07:15 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/127EXHO.pdf','127','N',now(),now())
+[03-Mar-2016 19:07:16 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/128EXHO.pdf','128','N',now(),now())
+[03-Mar-2016 19:07:16 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/129EXHO.pdf','129','N',now(),now())
+[03-Mar-2016 19:07:16 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/130EXHO.pdf','130','N',now(),now())
+[03-Mar-2016 19:07:17 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/131EXHO.pdf','131','N',now(),now())
+[03-Mar-2016 19:07:17 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/132EXHO.pdf','132','N',now(),now())
+[03-Mar-2016 19:07:17 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/133EXHO.pdf','133','N',now(),now())
+[03-Mar-2016 19:07:17 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/134EXHO.pdf','134','N',now(),now())
+[03-Mar-2016 19:07:18 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/135EXHO.pdf','135','N',now(),now())
+[03-Mar-2016 19:07:18 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/136EXHO.pdf','136','N',now(),now())
+[03-Mar-2016 19:07:18 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/137EXHO.pdf','137','N',now(),now())
+[03-Mar-2016 19:07:18 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/138EXHO.pdf','138','N',now(),now())
+[03-Mar-2016 19:07:19 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/139EXHO.pdf','139','N',now(),now())
+[03-Mar-2016 19:07:19 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/140EXHO.pdf','140','N',now(),now())
+[03-Mar-2016 19:07:19 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/141EXHO.pdf','141','N',now(),now())
+[03-Mar-2016 19:07:20 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/142EXHO.pdf','142','N',now(),now())
+[03-Mar-2016 19:07:21 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/143EXHO.pdf','143','N',now(),now())
+[03-Mar-2016 19:07:21 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/144EXHO.pdf','144','N',now(),now())
+[03-Mar-2016 19:07:22 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/145EXHO.pdf','145','N',now(),now())
+[03-Mar-2016 19:07:22 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/146EXHO.pdf','146','N',now(),now())
+[03-Mar-2016 19:07:23 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/147EXHO.pdf','147','N',now(),now())
+[03-Mar-2016 19:07:23 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/148EXHO.pdf','148','N',now(),now())
+[03-Mar-2016 19:07:23 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/149EXHO.pdf','149','N',now(),now())
+[03-Mar-2016 19:07:23 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/150EXHO.pdf','150','N',now(),now())
+[03-Mar-2016 19:07:24 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/151EXHO.pdf','151','N',now(),now())
+[03-Mar-2016 19:07:24 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/152EXHO.pdf','152','N',now(),now())
+[03-Mar-2016 19:07:25 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/153EXHO.pdf','153','N',now(),now())
+[03-Mar-2016 19:07:25 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/154EXHO.pdf','154','N',now(),now())
+[03-Mar-2016 19:07:26 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/155EXHO.pdf','155','N',now(),now())
+[03-Mar-2016 19:07:26 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/156EXHO.pdf','156','N',now(),now())
+[03-Mar-2016 19:07:27 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/157EXHO.pdf','157','N',now(),now())
+[03-Mar-2016 19:07:27 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/158EXHO.pdf','158','N',now(),now())
+[03-Mar-2016 19:07:28 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/159EXHO.pdf','159','N',now(),now())
+[03-Mar-2016 19:07:28 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/160EXHO.pdf','160','N',now(),now())
+[03-Mar-2016 19:07:29 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/161EXHO.pdf','161','N',now(),now())
+[03-Mar-2016 19:07:29 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/162EXHO.pdf','162','N',now(),now())
+[03-Mar-2016 19:07:30 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/163EXHO.pdf','163','N',now(),now())
+[03-Mar-2016 19:07:30 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/164EXHO.pdf','164','N',now(),now())
+[03-Mar-2016 19:07:30 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/165EXHO.pdf','165','N',now(),now())
+[03-Mar-2016 19:07:30 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/166EXHO.pdf','166','N',now(),now())
+[03-Mar-2016 19:07:31 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/167EXHO.pdf','167','N',now(),now())
+[03-Mar-2016 19:07:31 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/168EXHO.pdf','168','N',now(),now())
+[03-Mar-2016 19:07:32 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/169EXHO.pdf','169','N',now(),now())
+[03-Mar-2016 19:07:32 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/170EXHO.pdf','170','N',now(),now())
+[03-Mar-2016 19:07:32 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/171EXHO.pdf','171','N',now(),now())
+[03-Mar-2016 19:07:33 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/172EXHO.pdf','172','N',now(),now())
+[03-Mar-2016 19:07:33 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/173EXHO.pdf','173','N',now(),now())
+[03-Mar-2016 19:07:34 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/174EXHO.pdf','174','N',now(),now())
+[03-Mar-2016 19:07:34 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/175EXHO.pdf','175','N',now(),now())
+[03-Mar-2016 19:07:35 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/176EXHO.pdf','176','N',now(),now())
+[03-Mar-2016 19:07:35 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/177EXHO.pdf','177','N',now(),now())
+[03-Mar-2016 19:07:35 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/178EXHO.pdf','178','N',now(),now())
+[03-Mar-2016 19:07:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/179EXHO.pdf','179','N',now(),now())
+[03-Mar-2016 19:07:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/180EXHO.pdf','180','N',now(),now())
+[03-Mar-2016 19:07:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/181EXHO.pdf','181','N',now(),now())
+[03-Mar-2016 19:07:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/182EXHO.pdf','182','N',now(),now())
+[03-Mar-2016 19:07:37 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/183EXHO.pdf','183','N',now(),now())
+[03-Mar-2016 19:07:37 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/184EXHO.pdf','184','N',now(),now())
+[03-Mar-2016 19:07:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/185EXHO.pdf','185','N',now(),now())
+[03-Mar-2016 19:07:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/186EXHO.pdf','186','N',now(),now())
+[03-Mar-2016 19:07:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/187EXHO.pdf','187','N',now(),now())
+[03-Mar-2016 19:07:39 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/188EXHO.pdf','188','N',now(),now())
+[03-Mar-2016 19:07:40 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/189EXHO.pdf','189','N',now(),now())
+[03-Mar-2016 19:07:40 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/190EXHO.pdf','190','N',now(),now())
+[03-Mar-2016 19:07:41 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/191EXHO.pdf','191','N',now(),now())
+[03-Mar-2016 19:07:42 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('6','1','../../../imagenes/182/2016/EXHORTO/3/192EXHO.pdf','192','N',now(),now())
+[03-Mar-2016 19:11:34 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='19:11:34' AND termina>='19:11:34'  ORDER BY fechaRegistro DESC
+[03-Mar-2016 19:11:34 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='19:11:34' AND termina>='19:11:34' ORDER BY fechaRegistro DESC
+[03-Mar-2016 19:11:34 America/Mexico_City]  SELECT  cveJuzgadoMateria,cveJuzgado,cveMateria,cveCuantia,cveTipo,activo,fechaRegistro,fechaActualizacion  FROM tbljuzgadosmaterias  WHERE cveJuzgado in (181,182,184,185) AND cveMateria='2' AND cveCuantia='1'
+[03-Mar-2016 19:11:34 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 19:11:34 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 19:11:34 America/Mexico_City] Juzgado Exhortado =>181
+[03-Mar-2016 19:11:35 America/Mexico_City] Array
+(
+    [status] => ok
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => Se inserto correctamente
+                    [idExhorto] => 3
+                    [idContador] => 4
+                    [numero] => 1
+                    [anio] => 2016
+                    [juicioExhorto] => Array
+                        (
+                            [cveJuicio] => 152
+                            [otroJuicio] =>  
+                        )
+
+                    [juzgadoAsignado] => Array
+                        (
+                            [cveJuzgado] => 181
+                            [desJuzgado] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+                        )
+
+                )
+
+        )
+
+)
+
+[03-Mar-2016 19:11:35 America/Mexico_City] se recibieron documentos
+[03-Mar-2016 19:11:35 America/Mexico_City] Folder => 3181mypdf
+[03-Mar-2016 19:11:35 America/Mexico_City] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('3','0','8','1',now(),now())
+[03-Mar-2016 19:11:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/1EXHO.pdf','1','N',now(),now())
+[03-Mar-2016 19:11:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/2EXHO.pdf','2','N',now(),now())
+[03-Mar-2016 19:11:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/3EXHO.pdf','3','N',now(),now())
+[03-Mar-2016 19:11:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/4EXHO.pdf','4','N',now(),now())
+[03-Mar-2016 19:11:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/5EXHO.pdf','5','N',now(),now())
+[03-Mar-2016 19:11:37 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/6EXHO.pdf','6','N',now(),now())
+[03-Mar-2016 19:11:37 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/7EXHO.pdf','7','N',now(),now())
+[03-Mar-2016 19:11:37 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/8EXHO.pdf','8','N',now(),now())
+[03-Mar-2016 19:11:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/9EXHO.pdf','9','N',now(),now())
+[03-Mar-2016 19:11:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/10EXHO.pdf','10','N',now(),now())
+[03-Mar-2016 19:11:38 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/11EXHO.pdf','11','N',now(),now())
+[03-Mar-2016 19:11:39 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/12EXHO.pdf','12','N',now(),now())
+[03-Mar-2016 19:11:39 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/13EXHO.pdf','13','N',now(),now())
+[03-Mar-2016 19:11:39 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/14EXHO.pdf','14','N',now(),now())
+[03-Mar-2016 19:11:40 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/15EXHO.pdf','15','N',now(),now())
+[03-Mar-2016 19:11:40 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/16EXHO.pdf','16','N',now(),now())
+[03-Mar-2016 19:11:40 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/17EXHO.pdf','17','N',now(),now())
+[03-Mar-2016 19:11:41 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/18EXHO.pdf','18','N',now(),now())
+[03-Mar-2016 19:11:41 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/19EXHO.pdf','19','N',now(),now())
+[03-Mar-2016 19:11:41 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/20EXHO.pdf','20','N',now(),now())
+[03-Mar-2016 19:11:41 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/21EXHO.pdf','21','N',now(),now())
+[03-Mar-2016 19:11:42 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/22EXHO.pdf','22','N',now(),now())
+[03-Mar-2016 19:11:42 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/23EXHO.pdf','23','N',now(),now())
+[03-Mar-2016 19:11:42 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/24EXHO.pdf','24','N',now(),now())
+[03-Mar-2016 19:11:43 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/25EXHO.pdf','25','N',now(),now())
+[03-Mar-2016 19:11:43 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/26EXHO.pdf','26','N',now(),now())
+[03-Mar-2016 19:11:44 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/27EXHO.pdf','27','N',now(),now())
+[03-Mar-2016 19:11:44 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/28EXHO.pdf','28','N',now(),now())
+[03-Mar-2016 19:11:44 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/29EXHO.pdf','29','N',now(),now())
+[03-Mar-2016 19:11:45 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/30EXHO.pdf','30','N',now(),now())
+[03-Mar-2016 19:11:45 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/31EXHO.pdf','31','N',now(),now())
+[03-Mar-2016 19:11:46 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/32EXHO.pdf','32','N',now(),now())
+[03-Mar-2016 19:11:46 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/33EXHO.pdf','33','N',now(),now())
+[03-Mar-2016 19:11:46 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/34EXHO.pdf','34','N',now(),now())
+[03-Mar-2016 19:11:46 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/35EXHO.pdf','35','N',now(),now())
+[03-Mar-2016 19:11:46 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/36EXHO.pdf','36','N',now(),now())
+[03-Mar-2016 19:11:47 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/37EXHO.pdf','37','N',now(),now())
+[03-Mar-2016 19:11:47 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/38EXHO.pdf','38','N',now(),now())
+[03-Mar-2016 19:11:47 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/39EXHO.pdf','39','N',now(),now())
+[03-Mar-2016 19:11:47 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/40EXHO.pdf','40','N',now(),now())
+[03-Mar-2016 19:11:48 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/41EXHO.pdf','41','N',now(),now())
+[03-Mar-2016 19:11:48 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/42EXHO.pdf','42','N',now(),now())
+[03-Mar-2016 19:11:48 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/43EXHO.pdf','43','N',now(),now())
+[03-Mar-2016 19:11:48 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/44EXHO.pdf','44','N',now(),now())
+[03-Mar-2016 19:11:49 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/45EXHO.pdf','45','N',now(),now())
+[03-Mar-2016 19:11:49 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/46EXHO.pdf','46','N',now(),now())
+[03-Mar-2016 19:11:49 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/47EXHO.pdf','47','N',now(),now())
+[03-Mar-2016 19:11:49 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/48EXHO.pdf','48','N',now(),now())
+[03-Mar-2016 19:11:50 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/49EXHO.pdf','49','N',now(),now())
+[03-Mar-2016 19:11:50 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/50EXHO.pdf','50','N',now(),now())
+[03-Mar-2016 19:11:50 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/51EXHO.pdf','51','N',now(),now())
+[03-Mar-2016 19:11:51 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('7','1','../../../imagenes/181/2016/EXHORTO/1/52EXHO.pdf','52','N',now(),now())
+[04-Mar-2016 02:14:18 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','6','11','1',now(),now())
+[04-Mar-2016 02:14:19 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('8','1','../../../imagenes/181/2016/OFICIO/6/1OFCO.pdf','1','N',now(),now())
+[04-Mar-2016 02:14:20 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('8','1','../../../imagenes/181/2016/OFICIO/6/2OFCO.pdf','2','N',now(),now())
+[04-Mar-2016 02:29:11 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','7','11','1',now(),now())
+[04-Mar-2016 02:29:11 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('9','1','../../../imagenes/181/2016/OFICIO/7/1OFCO.pdf','1','N',now(),now())
+[04-Mar-2016 02:29:11 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('9','1','../../../imagenes/181/2016/OFICIO/7/2OFCO.pdf','2','N',now(),now())
+[04-Mar-2016 02:29:12 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('9','1','../../../imagenes/181/2016/OFICIO/7/3OFCO.pdf','3','N',now(),now())
+[04-Mar-2016 02:29:12 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('9','1','../../../imagenes/181/2016/OFICIO/7/4OFCO.pdf','4','N',now(),now())
+[04-Mar-2016 02:29:12 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('9','1','../../../imagenes/181/2016/OFICIO/7/5OFCO.pdf','5','N',now(),now())
+[03-Mar-2016 19:30:04 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='19:30:04' AND termina>='19:30:04'  ORDER BY fechaRegistro DESC
+[03-Mar-2016 19:30:04 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='19:30:04' AND termina>='19:30:04' ORDER BY fechaRegistro DESC
+[03-Mar-2016 19:30:04 America/Mexico_City]  SELECT  cveJuzgadoMateria,cveJuzgado,cveMateria,cveCuantia,cveTipo,activo,fechaRegistro,fechaActualizacion  FROM tbljuzgadosmaterias  WHERE cveJuzgado in (181,182,184,185) AND cveMateria='2' AND cveCuantia='1'
+[03-Mar-2016 19:30:04 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 19:30:04 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[03-Mar-2016 19:30:04 America/Mexico_City] Juzgado Exhortado =>182
+[03-Mar-2016 19:30:06 America/Mexico_City] Array
+(
+    [status] => ok
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => Se inserto correctamente
+                    [idExhorto] => 4
+                    [idContador] => 1
+                    [numero] => 4
+                    [anio] => 2016
+                    [juicioExhorto] => Array
+                        (
+                            [cveJuicio] => 9999
+                            [otroJuicio] => juicio manual test
+                        )
+
+                    [juzgadoAsignado] => Array
+                        (
+                            [cveJuzgado] => 182
+                            [desJuzgado] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+                        )
+
+                )
+
+        )
+
+)
+
+[03-Mar-2016 19:30:06 America/Mexico_City] se recibieron documentos
+[03-Mar-2016 19:30:06 America/Mexico_City] Folder => 4182mypdf
+[03-Mar-2016 19:30:07 America/Mexico_City] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('4','0','8','1',now(),now())
+[03-Mar-2016 19:30:07 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/1EXHO.pdf','1','N',now(),now())
+[03-Mar-2016 19:30:07 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/2EXHO.pdf','2','N',now(),now())
+[03-Mar-2016 19:30:08 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/3EXHO.pdf','3','N',now(),now())
+[03-Mar-2016 19:30:09 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/4EXHO.pdf','4','N',now(),now())
+[03-Mar-2016 19:30:09 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/5EXHO.pdf','5','N',now(),now())
+[03-Mar-2016 19:30:10 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/6EXHO.pdf','6','N',now(),now())
+[03-Mar-2016 19:30:11 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/7EXHO.pdf','7','N',now(),now())
+[03-Mar-2016 19:30:11 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/8EXHO.pdf','8','N',now(),now())
+[03-Mar-2016 19:30:12 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/9EXHO.pdf','9','N',now(),now())
+[03-Mar-2016 19:30:12 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('10','1','../../../imagenes/182/2016/EXHORTO/4/10EXHO.pdf','10','N',now(),now())
+[04-Mar-2016 02:47:42 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','8','9','1',now(),now())
+[04-Mar-2016 02:47:43 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/1EXHG.pdf','1','N',now(),now())
+[04-Mar-2016 02:47:44 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/2EXHG.pdf','2','N',now(),now())
+[04-Mar-2016 02:47:44 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/3EXHG.pdf','3','N',now(),now())
+[04-Mar-2016 02:47:45 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/4EXHG.pdf','4','N',now(),now())
+[04-Mar-2016 02:47:45 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/5EXHG.pdf','5','N',now(),now())
+[04-Mar-2016 02:47:46 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/6EXHG.pdf','6','N',now(),now())
+[04-Mar-2016 02:47:46 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/7EXHG.pdf','7','N',now(),now())
+[04-Mar-2016 02:47:46 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/8EXHG.pdf','8','N',now(),now())
+[04-Mar-2016 02:47:47 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/9EXHG.pdf','9','N',now(),now())
+[04-Mar-2016 02:47:47 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('11','1','../../../imagenes/181/2016/EXHORTO GENERADO/8/10EXHG.pdf','10','N',now(),now())
+[04-Mar-2016 02:50:13 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','9','9','1',now(),now())
+[04-Mar-2016 02:50:13 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('12','1','../../../imagenes/181/2016/EXHORTO GENERADO/9/1EXHG.pdf','1','N',now(),now())
+[04-Mar-2016 02:50:14 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('12','1','../../../imagenes/181/2016/EXHORTO GENERADO/9/2EXHG.pdf','2','N',now(),now())
+[04-Mar-2016 02:50:14 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('12','1','../../../imagenes/181/2016/EXHORTO GENERADO/9/3EXHG.pdf','3','N',now(),now())
+[04-Mar-2016 02:52:24 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','10','9','1',now(),now())
+[04-Mar-2016 02:52:24 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('13','1','../../../imagenes/181/2016/EXHORTO GENERADO/10/1EXHG.pdf','1','N',now(),now())
+[04-Mar-2016 02:52:25 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('13','1','../../../imagenes/181/2016/EXHORTO GENERADO/10/2EXHG.pdf','2','N',now(),now())
+[04-Mar-2016 02:52:25 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('13','1','../../../imagenes/181/2016/EXHORTO GENERADO/10/3EXHG.pdf','3','N',now(),now())
+[04-Mar-2016 02:52:26 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('13','1','../../../imagenes/181/2016/EXHORTO GENERADO/10/4EXHG.pdf','4','N',now(),now())
+[04-Mar-2016 02:54:17 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','11','9','1',now(),now())
+[04-Mar-2016 02:54:17 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/1EXHG.pdf','1','N',now(),now())
+[04-Mar-2016 02:54:19 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/2EXHG.pdf','2','N',now(),now())
+[04-Mar-2016 02:54:19 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/3EXHG.pdf','3','N',now(),now())
+[04-Mar-2016 02:54:20 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/4EXHG.pdf','4','N',now(),now())
+[04-Mar-2016 02:54:20 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/5EXHG.pdf','5','N',now(),now())
+[04-Mar-2016 02:54:21 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/6EXHG.pdf','6','N',now(),now())
+[04-Mar-2016 02:54:21 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/7EXHG.pdf','7','N',now(),now())
+[04-Mar-2016 02:54:21 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/8EXHG.pdf','8','N',now(),now())
+[04-Mar-2016 02:54:21 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/9EXHG.pdf','9','N',now(),now())
+[04-Mar-2016 02:54:22 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/10EXHG.pdf','10','N',now(),now())
+[04-Mar-2016 02:54:22 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/11EXHG.pdf','11','N',now(),now())
+[04-Mar-2016 02:54:23 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/12EXHG.pdf','12','N',now(),now())
+[04-Mar-2016 02:54:23 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('14','1','../../../imagenes/181/2016/EXHORTO GENERADO/11/13EXHG.pdf','13','N',now(),now())
+[04-Mar-2016 10:08:33 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='10:08:33' AND termina>='10:08:33'  ORDER BY fechaRegistro DESC
+[04-Mar-2016 10:08:33 America/Mexico_City] SELECT cveConfiguracionCarga,cveOficialia,topeCarga,tipoOficialia,activo,fechaActualizacion,fechaRegistro,inicia,termina FROM tblconfiguracionescargas  WHERE cveOficialia='87' AND activo='S' AND inicia<='10:08:33' AND termina>='10:08:33' ORDER BY fechaRegistro DESC
+[04-Mar-2016 10:08:33 America/Mexico_City]  SELECT  cveJuzgadoMateria,cveJuzgado,cveMateria,cveCuantia,cveTipo,activo,fechaRegistro,fechaActualizacion  FROM tbljuzgadosmaterias  WHERE cveJuzgado in (181,182,184,185) AND cveMateria='2' AND cveCuantia='1'
+[04-Mar-2016 10:08:33 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[04-Mar-2016 10:08:33 America/Mexico_City] Array
+(
+    [0] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 181
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 137
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:41
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:41
+        )
+
+    [1] => JuzgadosDTO Object
+        (
+            [cveJuzgado:JuzgadosDTO:private] => 182
+            [desJuzgado:JuzgadosDTO:private] => JUZGADO SEGUNDOFAMILIAR ZACATECAS
+            [cveOficialia:JuzgadosDTO:private] => 87
+            [cveAdscripcion:JuzgadosDTO:private] => 138
+            [proporcion:JuzgadosDTO:private] => 1
+            [asignados:JuzgadosDTO:private] => 0
+            [control:JuzgadosDTO:private] => 0
+            [activo:JuzgadosDTO:private] => S
+            [fechaRegistro:JuzgadosDTO:private] => 2016-02-22 13:00:55
+            [fechaActualizacion:JuzgadosDTO:private] => 2016-02-22 13:00:55
+        )
+
+)
+
+[04-Mar-2016 10:08:34 America/Mexico_City] Juzgado Exhortado =>181
+[04-Mar-2016 10:08:35 America/Mexico_City] Array
+(
+    [status] => ok
+    [resultados] => Array
+        (
+            [0] => Array
+                (
+                    [mensaje] => Se inserto correctamente
+                    [idExhorto] => 5
+                    [idContador] => 4
+                    [numero] => 4
+                    [anio] => 2016
+                    [juicioExhorto] => Array
+                        (
+                            [cveJuicio] => 9999
+                            [otroJuicio] => juicio 1007
+                        )
+
+                    [juzgadoAsignado] => Array
+                        (
+                            [cveJuzgado] => 181
+                            [desJuzgado] => JUZGADO PRIMERO FAMILIAR ZACATECAS
+                        )
+
+                )
+
+        )
+
+)
+
+[04-Mar-2016 10:08:35 America/Mexico_City] se recibieron documentos
+[04-Mar-2016 10:08:35 America/Mexico_City] Folder => 5181mypdf
+[04-Mar-2016 10:08:35 America/Mexico_City] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('5','0','8','1',now(),now())
+[04-Mar-2016 10:08:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('16','1','../../../imagenes/181/2016/EXHORTO/4/1EXHO.pdf','1','N',now(),now())
+[04-Mar-2016 10:08:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('16','1','../../../imagenes/181/2016/EXHORTO/4/2EXHO.pdf','2','N',now(),now())
+[04-Mar-2016 10:08:36 America/Mexico_City] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('16','1','../../../imagenes/181/2016/EXHORTO/4/3EXHO.pdf','3','N',now(),now())
+[04-Mar-2016 17:14:44 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','13','11','1',now(),now())
+[04-Mar-2016 17:14:44 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('17','1','../../../imagenes/181/2016/OFICIO/13/1OFCO.pdf','1','N',now(),now())
+[04-Mar-2016 17:14:50 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('17','1','../../../imagenes/181/2016/OFICIO/13/2OFCO.pdf','2','N',now(),now())
+[04-Mar-2016 17:14:50 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('17','1','../../../imagenes/181/2016/OFICIO/13/3OFCO.pdf','3','N',now(),now())
+[04-Mar-2016 17:22:01 Europe/Paris] INSERT INTO tbldocumentosimg(idExhorto,idActuacion,cveTipoDocumento,cveUsuario,fechaActualizacion,fechaRegistro) VALUES('0','15','11','1',now(),now())
+[04-Mar-2016 17:22:01 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('18','1','../../../imagenes/181/2016/OFICIO/15/1OFCO.pdf','1','N',now(),now())
+[04-Mar-2016 17:22:01 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('18','1','../../../imagenes/181/2016/OFICIO/15/2OFCO.pdf','2','N',now(),now())
+[04-Mar-2016 17:22:07 Europe/Paris] INSERT INTO tblimagenes(idDocumentoImg,fojas,ruta,posicion,adjunto,fechaActualizacion,fechaRegistro) VALUES('18','1','../../../imagenes/181/2016/OFICIO/15/3OFCO.pdf','3','N',now(),now())
