@@ -1,4 +1,4 @@
-# exhortos
+# Exhortos PJEM
 1.- REQUERIMIENTOS
   - PHP 5
   - MYSQL CUALQUIER VERSION
